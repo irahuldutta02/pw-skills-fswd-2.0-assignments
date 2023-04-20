@@ -5,7 +5,7 @@
 
 ---
 
-### [Assignments-001](./001/index.html)
+### [Assignments-001](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/001)
 - using `HTML5`
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/001/index.html)
 
