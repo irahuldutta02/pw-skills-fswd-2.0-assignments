@@ -5,6 +5,7 @@ Course Linek: [https://pwskills.com/course/Full-Stack-web-development-2.0](https
 
 <li>
 <a href="./001/index.html">Assignment-1</a>
+( tindog - using bootstrap )
 </li>
 <li>
 <a href="#">Assignment-2</a>
