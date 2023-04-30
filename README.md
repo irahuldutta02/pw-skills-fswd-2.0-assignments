@@ -5,8 +5,12 @@
 
 ---
 
-<!-- ### Assignments-001
+### 000-pdf-assignments
+- [View All](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments)
+
+
+<!-- ### 000-pdf-assignments
 - using `HTML5`
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/001)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments)
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/001/index.html)
-- [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/001) -->
+- [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments) -->
