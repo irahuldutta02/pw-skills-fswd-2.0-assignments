@@ -17,8 +17,8 @@
 ### 003-course-basics
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-course-basics)
 
-### 004-requirements-&-system-setup
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-requirements-&-system-setup)
+### 004-requirements-system-setup
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-requirements-system-setup)
 
 ### 006-starting-with-emmet-assignment
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-starting-with-emmet-assignment)
