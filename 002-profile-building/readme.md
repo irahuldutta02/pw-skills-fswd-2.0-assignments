@@ -26,17 +26,23 @@ topic for writing your 1st blog)
 
 - GITHUB PROFILE : 
     - Progfile Link : [github.com/irahuldutta02](https://github.com/irahuldutta02)
-    - Image of the profile :
+    - Image of the profile : 
+   
+    <img src="https://user-images.githubusercontent.com/78687135/235348894-9224d30c-b1d7-4a9f-9bf0-9a577c0fdb05.png" alt="github-profile-image-rahul-dutta" style="width:400px;height:300px;">
+
 
 
 - LINKEDIN PROFILE : 
     - Progfile Link : [linkedin.com/in/irahuldutta02](https://www.linkedin.com/in/irahuldutta02/)
     - Image of the profile :
-
+    
+    <img src="https://user-images.githubusercontent.com/78687135/235348936-9458fa43-89a5-48f5-94f1-8417a6a90d4d.png" alt="github-profile-image-rahul-dutta" style="width:400px;height:300px;">
 
 
 5. 
 - My Blog Link : [rahuldutta.hashnode.dev](https://rahuldutta.hashnode.dev/)
 - Image of the blog : 
+<img src="https://user-images.githubusercontent.com/78687135/235348994-aaddb189-3c26-47f1-a89b-9506e55b7136.png" alt="github-profile-image-rahul-dutta" style="width:600px;height:300px;">
+
 
 
