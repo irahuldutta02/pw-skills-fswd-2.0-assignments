@@ -5,8 +5,14 @@
 
 ---
 
-### 000-pdf-assignments
-- [View All](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments)
+<!-- ### 000-pdf-assignments
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments) -->
+
+### 001-base-building-assignment
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/001-base-building-assignment)
+
+### 006-starting-with-emmet-assignment
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-starting-with-emmet-assignment)
 
 
 <!-- ### 000-pdf-assignments
