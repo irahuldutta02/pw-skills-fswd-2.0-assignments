@@ -14,7 +14,7 @@
 ### 002-profile-building
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-profile-building)
 
-## 003-course-basics
+### 003-course-basics
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-course-basics)
 
 ### 006-starting-with-emmet-assignment
