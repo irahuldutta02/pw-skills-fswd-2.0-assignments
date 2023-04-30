@@ -13,8 +13,6 @@
 
 ## Answers ✅
 
-
-
 1. HTML (Hypertext Markup Language) is a standard markup language used for creating and structuring content for the web. It provides a set of tags and attributes that define the structure and layout of a webpage.
 
 2. CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of HTML documents. It allows developers to separate the presentation and layout of a webpage from its content, providing greater control over the visual appearance of a website.
