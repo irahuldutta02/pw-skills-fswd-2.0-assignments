@@ -26,6 +26,9 @@
 ### 006-starting-with-emmet-assignment
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-starting-with-emmet-assignment)
 
+### 007-html-part-1
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/007-html-part-1)
+
 
 <!-- ### 000-pdf-assignments
 - using `HTML5`
