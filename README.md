@@ -5,30 +5,11 @@
 
 ---
 
-<!-- ### 000-pdf-assignments
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/000-pdf-assignments) -->
 
-### 001-base-building-assignment
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/001-base-building-assignment)
 
-### 002-profile-building
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-profile-building)
 
-### 003-course-basics
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-course-basics)
-
-### 004-requirements-system-setup
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-requirements-system-setup)
-
-### 005-getting-started
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-getting-started)
-
-### 006-starting-with-emmet-assignment
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-starting-with-emmet-assignment)
-
-### 007-html-part-1
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/007-html-part-1)
-
+<!-- ### 007-html-part-1
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/007-html-part-1) -->
 
 <!-- ### 000-pdf-assignments
 - using `HTML5`
