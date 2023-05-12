@@ -4,12 +4,11 @@
 ### My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
 
 ---
+### 002-week-02-core-html
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html)
 
 
 
-
-<!-- ### 007-html-part-1
-- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/007-html-part-1) -->
 
 <!-- ### 000-pdf-assignments
 - using `HTML5`
