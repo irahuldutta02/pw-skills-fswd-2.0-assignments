@@ -11,14 +11,13 @@ __Answer :__
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.1)
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.1)
 
-
-
 <!-- question 2 -->
 <img src="https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/assets/78687135/f7c5d253-e65d-4a67-84b8-ca3cb60c7929" alt="question-1.2" width="90%">
 
 __Answer :__
 
-
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.2)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.2)
 
 <!-- question 3 -->
 <img src="https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/assets/78687135/592f01e8-cb58-45e8-ae50-0ec0bfb012e2" alt="question-1.3" width="90%">
