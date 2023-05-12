@@ -7,5 +7,4 @@
 
 __Answer :__
 
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.1)
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.1)
