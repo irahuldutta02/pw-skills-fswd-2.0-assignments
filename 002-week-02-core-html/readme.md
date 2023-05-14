@@ -48,12 +48,15 @@ __Answer :__
 
 __Answer :__
 
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.6)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.6)
 
-
-### 7. Create an unordered list of 5 programming Huotes, using the `<ul>` tag.
+### 7. Create an unordered list of 5 programming quotes, using the `<ul>` tag.
 
 __Answer :__
 
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.7)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.7)
 
   
 ### 8. Create a description list of full stack web development tech stack, using the `<dl>` tag. Each term should be a tech stack name and each description should be a brief explanation of what the tech stack is used for.
