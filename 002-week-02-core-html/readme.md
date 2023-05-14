@@ -63,20 +63,23 @@ __Answer :__
 
 __Answer :__
 
-
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.8)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.8)
  
 ### 9. Create an ordered list of the most common text formatting tags in HTML. Within each list item, use an unordered list to list the specific use cases and best practices for that tag.
 
 __Answer :__
 
-
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.9)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.9)
 
 ### 10. Create an ordered list of the full stack web development tech stack HTML, CSS, and JS. or each tech stack, create a table that lists the tech stack name, its primary use cases, and some key features or benefits. Below is a reference image.
 <img src="https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/assets/78687135/fbac6f73-6187-4448-ab59-b79b450a9770" alt="question-1.10" width="90%">
 
 __Answer :__
 
-
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.10)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.10)
 
 # Getting started with HTML and Emmet Assignment
 
