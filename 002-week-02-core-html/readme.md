@@ -41,7 +41,8 @@ __Answer :__
 
 __Answer :__
 
-
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html/1.5)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/002-week-02-core-html/1.5)
 
 ### 6. Create an ordered list of HTML tags. Each list item must include the tag name and some information about the tag.
 
