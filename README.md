@@ -7,6 +7,9 @@
 ### 002-week-02-core-html
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/002-week-02-core-html)
 
+### 003-week-03-media-and-modern-html
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html)
+
 
 
 
