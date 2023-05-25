@@ -34,16 +34,16 @@ Some assistive devices that play a major role in providing web accessibility inc
 - Alternative input devices: Keyboards, switches, or eye-tracking systems that enable people with motor disabilities to navigate and interact with websites.
 - Speech recognition software: Tools that allow users with mobility impairments to control the computer using voice commands.
 
-### **4.** 
+### **4 :** 
 Three ways to improve the accessibility of HTML:
 - Use semantic HTML: Use appropriate HTML tags to provide a clear structure and meaning to the content. This helps assistive technologies understand and present the content properly.
 - Provide alternative text for images: Use the `alt` attribute in the `<img>` tag to describe the content of an image for users who cannot see it. This ensures that screen readers and other assistive technologies can convey the information to visually impaired users.
 - Ensure keyboard accessibility: Make sure that all interactive elements, such as links, buttons, and form inputs, can be accessed and operated using the keyboard alone. This is crucial for users who cannot use a mouse or other pointing devices.
 
-### **5.** 
+### **5 :** 
 The tabindex attribute in HTML is used to control the order in which elements receive focus when navigating through a webpage using the keyboard. It specifies the order in which elements are "tabbed" to when the user presses the Tab key. The tabindex attribute accepts a numeric value, where a value of "0" means the element will be included in the natural tab order, and a positive value specifies a specific order for the element. Elements with a negative tabindex value are also focusable, but they cannot be reached by the Tab key; they require programmatic focus.
 
-### **6.** 
+### **6 :** 
 Five semantic tags in HTML along with their descriptions:
 - `<header>`: Represents the introductory content or a group of navigational aids at the top of a webpage or section.
 - `<nav>`: Represents a section of a webpage that contains navigation links, such as menus, lists of links, or site maps.
@@ -51,7 +51,7 @@ Five semantic tags in HTML along with their descriptions:
 - `<article>`: Represents a self-contained composition that can be independently distributed or syndicated, such as blog posts, news articles, or forum threads.
 - `<footer>`: Represents the footer of a section or a webpage, typically containing information about the author, copyright notice, or links to related documents.
 
-### **7.** 
+### **7 :** 
 Benefits of using semantic tags in a webpage:
 - Improved accessibility: Semantic tags provide meaning and structure to content, making it easier for assistive technologies to understand and navigate the webpage. This helps users with disabilities access the information more effectively.
 - Better search engine optimization (SEO): Search engines can better understand the content and context of a webpage when semantic tags are used correctly. This can improve the webpage's visibility and ranking in search results.
