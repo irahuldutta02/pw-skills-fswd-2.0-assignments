@@ -8,15 +8,15 @@
 
 __Answer :__
 
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/1.1)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/1.1)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-week-04-starting-with-css/1.1)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/004-week-04-starting-with-css/1.1)
 
 ### **2. Create a simple webpage with the PW Skills logo and add a title attribute with the value "PW Skills". Observe the changes that the title attribute applies to the image.**
 
 __Answer :__
 
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/1.2)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/1.2)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-week-04-starting-with-css/1.2)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/004-week-04-starting-with-css/1.2)
 
 ### **3. Create a `<audio>` tag that has controls to pause, play, and adjust the volume.**
 
