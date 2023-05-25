@@ -1,8 +1,8 @@
-### My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
+### **My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)**
 
 ---
 
-# [Question 1 :](./questions/01.pdf)
+# [**Question 1 :**](./questions/01.pdf)
 ## **ANSWERS :**
 
 
@@ -75,7 +75,7 @@ Benefits of using semantic tags in a webpage:
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/1.10)
 
 
-# [Question 2 :](./questions/02.pdf)
+# [**Question 2 :**](./questions/02.pdf)
 ## **ANSWERS :**
 
 ### **1 :**
