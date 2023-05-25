@@ -81,3 +81,39 @@ Benefits of using semantic tags in a webpage:
 ### **1 :**
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.1)
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.1)
+
+### **2 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.2)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.2)
+
+### **3 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.3)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.3)
+
+### **4 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.4)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.4)
+
+### **5 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.5)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.5)
+
+### **6 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.6)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.6)
+
+### **7 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.7)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.7)
+
+### **8 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.8)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.8)
+
+### **9 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.9)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.9)
+
+### **10 :**
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/2.10)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/2.10)
