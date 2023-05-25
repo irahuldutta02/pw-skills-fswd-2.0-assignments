@@ -15,6 +15,9 @@ __Answer :__
 
 __Answer :__
 
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/003-week-03-media-and-modern-html/1.2)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/003-week-03-media-and-modern-html/1.2)
+
 ### **3. Create a `<audio>` tag that has controls to pause, play, and adjust the volume.**
 
 __Answer :__
