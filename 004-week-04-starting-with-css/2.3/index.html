@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navigation Bar with Different Border Styles</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        nav {
+            background-color: #7fffd4;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 12px;
+            transition: border-color 0.3s;
+            
+        }
+
+        li:nth-child(1) a {
+            border-style: dashed;
+            border-width: 2px;
+            border-color: red;
+        }
+
+        li:nth-child(2) a {
+            border-style: dotted;
+            border-width: 2px;
+            border-color: blue;
+        }
+
+        li:nth-child(3) a {
+            border-style: groove;
+            border-width: 2px;
+            border-color: green;
+        }
+
+        li:nth-child(4) a {
+            border-style: ridge;
+            border-width: 2px;
+            border-color: yellow;
+        }
+
+        li:nth-child(5) a {
+            border-style: solid;
+            border-width: 2px;
+            border-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

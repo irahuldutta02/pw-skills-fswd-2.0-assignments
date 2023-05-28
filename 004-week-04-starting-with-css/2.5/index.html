@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hover Effect with Circular Image</title>
+    <style>
+        .image-container {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 2px solid #333333;
+            transition: border-color 0.3s;
+        }
+
+        .image-container:hover {
+            border-color: #00ffff;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1684785459021-761c8ee14e49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Image">
+    </div>
+</body>
+
+</html>
