@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hover to Reveal Image</title>
+    <style>
+        img {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        h1:hover+img {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hover below to reveal a surprise</h1>
+    <img src="https://pwskills.com/images/PWSkills-main.png" alt="Surprise Image">
+</body>
+
+</html>
