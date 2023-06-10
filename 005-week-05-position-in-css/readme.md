@@ -6,12 +6,12 @@
 ## **ANSWERS :**
 
 ### **1 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/1)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/1)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/01)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/01)
 
 ### **2 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/2)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/2)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/02)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/02)
 
 ### **3 :**
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/3)
@@ -26,20 +26,20 @@
 - [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/5)
 
 ### **6 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/6)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/6)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/06)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/06)
 
 ### **7 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/7)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/7)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/07)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/07)
 
 ### **8 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/8)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/8)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/08)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/08)
 
 ### **9 :**
-- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/9)
-- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/9)
+- [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/09)
+- [Live](https://irahuldutta02.github.io/pw-skills-fswd-2.0-assignments/005-week-05-position-in-css/09)
 
 ### **10 :**
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css/10)
