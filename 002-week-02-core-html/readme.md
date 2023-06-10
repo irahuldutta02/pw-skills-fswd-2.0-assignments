@@ -1,7 +1,7 @@
 ### My Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
 
 ---
-
+# 002-week-02-core-html
 # Core HTML Assignment
 <!-- queestion 1  -->
 <img src="https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/assets/78687135/e85e6657-bded-4558-bcf5-16cf75424ce1" alt="question-1.1" width="90%">
