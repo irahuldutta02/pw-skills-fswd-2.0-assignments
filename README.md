@@ -12,3 +12,9 @@
 
 ### 004-week-04-starting-with-css
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/004-week-04-starting-with-css)
+
+### 005-week-05-position-in-css
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/005-week-05-position-in-css)
+
+### 006-week-06-flexbox-in-css
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-week-06-flexbox-in-css)
