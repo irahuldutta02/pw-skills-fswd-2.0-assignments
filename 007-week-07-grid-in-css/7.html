@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Gallery</title>
+
+    <style>
+      .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        gap: 20px;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+      }
+
+      .photo-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      .photo-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+
+      .photo-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      .photo-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+
+      .photo-5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+
+      .photo-6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="photo-gallery">
+      <div class="photo-1">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          alt="image-01"
+        />
+      </div>
+      <div class="photo-2">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+          alt="image-02"
+        />
+      </div>
+      <div class="photo-3">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+          alt="image-03"
+        />
+      </div>
+      <div class="photo-4">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+          alt="image-04"
+        />
+      </div>
+      <div class="photo-5">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          alt="img-5"
+        />
+      </div>
+      <div class="photo-6">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+          alt="image-6"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Restaurant</title>
+
+    <style>
+      /* Question 02 Styles Start */
+
+      nav {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      nav img {
+        width: 50px;
+      }
+
+      nav a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: #000;
+      }
+
+      nav a:hover {
+        color: #00ee7f;
+        font-weight: bold;
+      }
+
+      nav button {
+        margin-left: 60%;
+        padding: 10px 0px;
+        border: 0;
+        border-radius: 5px;
+        background-color: #0fdb6b;
+        color: #000;
+        font-weight: bold;
+      }
+
+      /* Question 02 Styles Ends */
+      .hero-container {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 2px solid black; */
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      .text-section {
+        padding: 0px 50px;
+      }
+
+      .image-section {
+        background-color: yellow;
+        height: 100%;
+        max-height: 90vh;
+      }
+
+      .text-section h1 {
+        font-size: 40px;
+      }
+
+      .text-section p {
+        color: #4c665d;
+      }
+
+      .text-section button {
+        padding: 10px 50px;
+        border: 0;
+        background-color: #000;
+        color: #fff;
+        margin-top: 30px;
+        font-size: large;
+      }
+
+      .image-section img {
+        width: 70%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+        alt="Logo"
+      />
+      <div>
+        <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+      </div>
+      <button>Login</button>
+    </nav>
+    <div class="hero-container">
+      <section class="text-section">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit
+          ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit
+          ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea!
+        </p>
+        <button>Read More</button>
+      </section>
+      <section class="image-section">
+        <img
+          src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY="
+          alt="Healthy Food"
+        />
+      </section>
+    </div>
+  </body>
+</html>

@@ -20,9 +20,9 @@ body {
   padding: 0;
 }
 
-section{
+section {
   /* ! learned new  */
-  margin-top: 3rem!important;
+  margin-top: 3rem !important;
 }
 
 /* ============
@@ -33,11 +33,31 @@ Utility Classes
   display: flex;
 }
 
-.container{
+.container {
   max-width: 1182px;
   padding: 0px 3rem;
   margin: 0 auto;
 }
+
+/* ! important learning (Start) */
+
+.headingHr {
+  align-items: center;
+  font-size: small;
+}
+
+.headingHr span {
+  padding-right: 1rem;
+}
+
+.headingHr::after {
+  content: "";
+  flex: 1;
+  background-color: black;
+  height: 2px;
+}
+
+/* ! important learning (End) */
 
 /* ============
 Header
@@ -112,29 +132,49 @@ Sub Header
   margin-right: 1rem;
 }
 
-
 /* =============
 Big News Section
 ================ */
 
-.bigNews{
+.bigNews {
   height: 20rem;
+  font-family: "Poppins", sans-serif;
 }
-.bigNewsContent{
+.bigNewsContent {
   width: 45%;
   cursor: pointer;
-  padding-right: 3rem ;
+  padding-right: 3rem;
   margin-right: 1rem;
 }
 
-.bigNewsContent h2:hover{
+.bigNewsContent h2{
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+.bigNewsContent p{
+  font-size: smaller;
+}
+
+.bigNewsContent div > * {
+  font-size: small;
+  font-weight: bold;
+}
+
+.bigNewsContent div :last-child{
+  color: rgb(97, 97, 97);
+  font-weight: lighter;
+}
+
+
+.bigNewsContent h2:hover {
   text-decoration: underline;
 }
 
-.bigNewsImageContainer{
+.bigNewsImageContainer {
   height: inherit;
   width: 55%;
-  background-image: url('https://t2.genius.com/unsafe/615x346/https%3A%2F%2Fimages.genius.com%2F3fde1b8d572100d828324ca616ab36b9.1920x1080x1.png');
+  background-image: url("https://t2.genius.com/unsafe/615x346/https%3A%2F%2Fimages.genius.com%2F3fde1b8d572100d828324ca616ab36b9.1920x1080x1.png");
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
