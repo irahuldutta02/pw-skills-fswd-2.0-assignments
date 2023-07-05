@@ -18,3 +18,16 @@
 
 ### 006-week-06-flexbox-in-css
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/006-week-06-flexbox-in-css)
+
+### 007-week-07-grid-in-css
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/007-week-07-grid-in-css)
+
+### 008-week-08-responsive-design-&-advance-css
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/008-week-08-responsive-design-&-advance-css)
+
+### 009-week-09-git-&-github
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/009-week-09-git-&-github)
+
+### 010-week-10-tailwind-css
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/010-week-10-tailwind-css)
+
