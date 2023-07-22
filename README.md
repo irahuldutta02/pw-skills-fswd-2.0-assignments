@@ -31,3 +31,6 @@
 ### 010-week-10-tailwind-css
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/010-week-10-tailwind-css)
 
+### 011-week-11-advance-tailwind
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/011-week-11-advance-tailwind)
+
