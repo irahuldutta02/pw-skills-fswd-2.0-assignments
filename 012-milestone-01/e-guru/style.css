@@ -134,6 +134,33 @@
   border: solid 1px orangered;
 }
 
+#mainItemImage_1{
+  position: absolute;
+  z-index: 4;
+  top: 5.5rem;
+  left: 55rem;
+  border-radius: 0 0 30% 30% ;
+  overflow: hidden;
+}
+
+#mainItemImage_1 img{
+  width: 20rem;
+}
+
+#mainItemImage_2{
+  position: absolute;
+  z-index: 2;
+  top: 6rem;
+  left: 50rem;
+}
+
+#mainItemImage_3{
+  position: absolute;
+  z-index: 3;
+  top: 6rem;
+  left: 50rem;
+}
+
 footer {
   background-color: #262543;
   color: white;
