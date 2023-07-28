@@ -34,3 +34,9 @@
 ### 011-week-11-advance-tailwind
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/011-week-11-advance-tailwind)
 
+### 012-milestone-01
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/012-milestone-01)
+
+### 013-javascript-fundaments-01
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/013-javascript-fundaments-01)
+
