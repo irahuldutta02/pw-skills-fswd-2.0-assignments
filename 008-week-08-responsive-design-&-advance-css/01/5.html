@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Grid</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        text-decoration: underline;
+      }
+      .grid-container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+      }
+
+      .grid-item {
+        padding: 2px;
+        height: 250px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+      .grid-item > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: 3px solid black;
+      }
+
+      @media (max-width: 768px) {
+        .grid-container {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Random Images</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/34299/herbs-flavoring-seasoning-cooking.jpg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/7256897/pexels-photo-7256897.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/7256897/pexels-photo-7256897.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.pexels.com/photos/4614204/pexels-photo-4614204.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Image-01"
+        />
+      </div>
+    </div>
+  </body>
+</html>

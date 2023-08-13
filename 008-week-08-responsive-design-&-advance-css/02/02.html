@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Header</title>
+
+    <style>
+      .gradient-container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        padding: 20px;
+        background: linear-gradient(
+          90deg,
+          rgba(207, 131, 226, 1) 17%,
+          rgba(149, 59, 213, 1) 100%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        border-radius: 20px;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 40px;
+        font-style: italic;
+      }
+
+      p {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gradient-container">
+      <section>
+        <h1>15+</h1>
+        <p>Years Experience</p>
+      </section>
+      <section>
+        <h1>24.5 T+</h1>
+        <p>Invested on Coinyx</p>
+      </section>
+      <section>
+        <h1>115+</h1>
+        <p>Professional Team</p>
+      </section>
+      <section>
+        <h1>262+</h1>
+        <p>Total Global Node</p>
+      </section>
+    </div>
+  </body>
+</html>

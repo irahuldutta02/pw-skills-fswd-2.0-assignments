@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unlock The Image</title>
+
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 50px;
+        text-decoration: underline;
+      }
+
+      img {
+        width: 800px;
+        height: 500px;
+        filter: blur(1rem);
+        border: 5px solid #000;
+      }
+
+      img:hover {
+        filter: blur(0px);
+        transition: 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hover To Reveal The Image.</h1>
+    <img
+      src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1432fedb88c0d1cc56f4c496a80f251c.jpg"
+      alt="Bengaluru"
+    />
+  </body>
+</html>
