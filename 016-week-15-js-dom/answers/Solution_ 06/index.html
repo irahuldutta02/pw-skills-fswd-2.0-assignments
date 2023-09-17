@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dropdown</title>
-  </head>
-  <body>
-    <div class="container"></div>
-  </body>
 
-  <script>
-    const options = ["JavaScript", "Java", "Python", "C++"];
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dropdown</title>
+</head>
 
-    const container = document.querySelector(".container");
+<body>
+  <div class="container"></div>
+</body>
 
-    const heading = document.createElement("h3");
-    heading.innerText = "Which is favorite Programming Language : ";
+<script>
+  const options = ["JavaScript", "Java", "Python", "C++"];
 
-    const span = document.createElement("span");
+  const container = document.querySelector(".container");
 
-    const select = document.createElement("select");
+  const heading = document.createElement("h3");
+  heading.innerText = "Which is favorite Programming Language : ";
 
-    options.map((data) => {
-      const option = document.createElement("option");
-      option.innerText = data;
-      option.value = data;
+  const span = document.createElement("span");
 
-      select.appendChild(option);
-    });
+  const select = document.createElement("select");
 
-    span.appendChild(select);
+  options.map((data) => {
+    const option = document.createElement("option");
+    option.innerText = data;
+    option.value = data;
 
-    heading.appendChild(span);
+    select.appendChild(option);
+  });
 
-    container.appendChild(heading);
-  </script>
+  span.appendChild(select);
+
+  heading.appendChild(span);
+
+  container.appendChild(heading);
+</script>
+
 </html>
