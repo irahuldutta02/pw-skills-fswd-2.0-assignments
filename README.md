@@ -39,3 +39,23 @@
 ### 013-javascript-fundaments-01
 - [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/013-javascript-fundaments-01)
 
+### 014-week-14-js-fundamental-2
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/014-week-14-js-fundamental-2)
+
+### 015-week-15-js-fundamental-3
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/015-week-15-js-fundamental-3)
+
+### 016-week-15-js-dom
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/016-week-15-js-dom)
+
+### 019-week-16-hof-functional-programming
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/019-week-16-hof-functional-programming)
+
+### 020-week-17-working-of-js
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/020-week-17-working-of-js)
+
+### 022-week-17-promises-callbacks
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/022-week-17-promises-callbacks)
+
+### 024-week-19-object-oriented-js
+- [View](https://github.com/irahuldutta02/pw-skills-fswd-2.0-assignments/tree/main/024-week-19-object-oriented-js)
