@@ -1,14 +1,14 @@
-const urlPattern =
-  /^(https?:\/\/)[a-zA-Z0-9\-._~:/?#[\]@!$&'()*+,;=%]+[.][a-zA-Z]+$/;
-
-function isValidURL(input) {
-  return urlPattern.test(input);
+// Function to validate URLs using regex
+function validateURL(url) {
+  const regex = /^(http:\/\/|https:\/\/)[A-Za-z0-9.-]+\.[A-Za-z]{2,}/;
+  if (regex.test(url)) {
+    console.log("Valid URL");
+  } else {
+    console.log("Invalid URL");
+  }
 }
 
-const url = "https://pwskills.com";
-
-if (isValidURL(url)) {
-  console.log(`"${url}" is a valid URL.`);
-} else {
-  console.log(`"${url}" is not a valid URL.`);
-}
+// Test cases
+validateURL("http://www.example.com"); // Valid URL
+validateURL("https://example.co"); // Valid URL
+validateURL("ftp://invalid.com"); // Invalid URL

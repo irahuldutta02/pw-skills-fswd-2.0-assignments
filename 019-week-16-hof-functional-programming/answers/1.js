@@ -1,14 +1,13 @@
-let input = "PW Skills";
+// Input string
+const input = "Hello, World!";
 
-function reverseString(inputString) {
-  return inputString.split("").reverse().join("");
-}
-
-function reverseWithDelay(inputString) {
-  setTimeout(function () {
-    let reversed = reverseString(inputString);
-    console.log("Reversed String: " + reversed);
+// Function to reverse the string with a delay
+function reverseStringWithDelay() {
+  setTimeout(() => {
+    const reversedString = input.split("").reverse().join("");
+    console.log("Reversed String:", reversedString);
   }, 2000);
 }
 
-reverseWithDelay(input);
+// Call the function
+reverseStringWithDelay();

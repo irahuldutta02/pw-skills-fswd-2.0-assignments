@@ -1,30 +1,25 @@
-// Object containing items with names, categories, and prices in USD
-const items = [
-  {
-    name: "Iphone 15",
-    category: "Mobile",
-    priceUSD: 999,
-  },
-  {
-    name: "Macbook Air",
-    category: "Laptops",
-    priceUSD: 1499,
-  },
-  {
-    name: "Apple Watch",
-    category: "Watches",
-    priceUSD: 499,
-  },
-];
+// Store's inventory with prices in USD
+const inventory = {
+  item1: 10, // Price in USD
+  item2: 20,
+  item3: 30,
+};
+
+// Conversion rate: 1 USD = 80 INR
 const exchangeRate = 80;
 
-function convertToINR(priceInUSD) {
-  return priceInUSD * exchangeRate;
+// Function to convert prices to INR using map
+function convertPricesToINR(inventory) {
+  const convertedInventory = {};
+
+  for (const item in inventory) {
+    const priceInINR = inventory[item] * exchangeRate;
+    convertedInventory[item] = priceInINR;
+  }
+
+  return convertedInventory;
 }
 
-const itemsInINR = items.map((item) => ({
-  ...item,
-  priceINR: convertToINR(item.priceUSD),
-}));
-
-console.log(itemsInINR);
+// Convert prices to INR
+const convertedInventory = convertPricesToINR(inventory);
+console.log("Converted Inventory (INR):", convertedInventory);
