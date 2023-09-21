@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e2983a05d.js" crossorigin="anonymous"></script>
+    <title>Doctor's Landing Page</title>
+</head>
+
+<body style="margin:0px;">
+    <div id="container-1"
+        style="background-image: url('./assets/background.png'); background-repeat:no-repeat; background-size: cover; min-width:1024px; height:100%;">
+        <nav style="display:flex; flex-direction:row; justify-content:space-around; align-items:center; height:5rem;">
+            <div style="font-weight:bolder; font-family:monospace; font-size:1.4rem; cursor:pointer; color:#ffffff">
+                BrandName</div>
+            <div
+                style="display:flex; flex-direction:row; align-items:center; gap:1.25rem; font-size:0.9rem; font-family:monospace;">
+                <div style="cursor:pointer; color:#ffffff">Home</div>
+                <div style="cursor:pointer; color:#ffffff">Product</div>
+                <div style="cursor:pointer; color:#ffffff">Pricing</div>
+                <div style="cursor:pointer; color:#ffffff">Contact</div>
+            </div>
+            <div
+                style="cursor:pointer; padding:0.5rem 0.75rem; background-color: rgb(0, 183, 255); color:#ffffff; font-family:monospace; font-size:1.1rem; border-radius:0.75rem;">
+                Get Quote Now
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </nav>
+        <div
+            style="display:flex; flex-direction:row; align-items:center; justify-content:space-evenly; height:34.1rem;">
+            <div style="display:flex; flex-direction:column; gap:2.5rem; height:fit-content; cursor:default;">
+                <div
+                    style="color:#ffffff; font-weight:bolder; font-size:3rem; font-family:monospace; line-height:2.8rem;">
+                    Meet the Best
+                    <br>
+                    Hospital
+                </div>
+                <div style="font-family:monospace; font-weight:lighter; font-size:1rem; color:#e7dfdf">We know how large
+                    objects will act,
+                    <br>
+                    but things on a small scale.
+                </div>
+                <div style="display:flex;
+                    flex-direction:row; flex-wrap:nowrap; gap:1.5rem;">
+                    <div
+                        style="padding:0.75rem 1.5rem; color:#ffffff; border:1px solid rgb(0, 183, 255); background-color:rgb(0, 183, 255); border-radius:2rem; cursor:pointer;">
+                        Get Quote Now</div>
+                    <div
+                        style="padding:0.75rem 1.5rem; color:#ffffff; border:1px solid white; border-radius:2rem; cursor:pointer;">
+                        Learn More</div>
+                </div>
+            </div>
+            <div
+                style="display:flex; flex-direction:column; gap:2rem; padding:2rem; padding-right:2.75rem; background-color: #ffffff; border-radius:1rem; cursor:default;">
+                <div style="align-self:center; color:#000000; font-family:arial; font-weight:bold; font-size:1.5rem;">
+                    Book&nbsp; Appointment</div>
+                <form style="display:flex; flex-direction:column; gap:1rem; width:fit-content;">
+                    <div
+                        style="font-family:monospace; display:flex; flex-direction:column; flex-wrap:nowrap; font-size:1rem; line-height:0.5rem;">
+                        <label for="full-name">
+                            Name*
+                        </label>
+                        <br>
+                        <input required type="text" id="full-name" name="full-name" placeholder="Full Name"
+                            style="outline-style:none;border-style:none; padding:0.5rem 1rem; width:100%; border-radius:0.25rem; outline:1px rgb(192, 189, 189) solid;">
+                    </div>
+                    <div
+                        style="font-family:monospace; display:flex; flex-direction:column; flex-wrap:nowrap; font-size:1rem; line-height:0.5rem;">
+                        <label for="email">
+                            Email address*
+                        </label>
+                        <br>
+                        <input required type="email" id="email" name="email" placeholder="example@gmail.com"
+                            style="outline-style:none;border-style:none; padding:0.5rem 1rem; width:100%; border-radius:0.25rem; outline:1px rgb(192, 189, 189) solid;">
+                    </div>
+                    <div
+                        style="font-family:monospace; display:flex; flex-direction:column; flex-wrap:nowrap; font-size:1rem; line-height:0.5rem;">
+                        <label for="dept">
+                            Department*
+                        </label>
+                        <br>
+                        <select name="dept" required
+                            style="outline-style:none;border-style:none; padding:0.5rem 1rem; width:100%; border-radius:0.25rem; outline:1px rgb(192, 189, 189) solid; color:rgb(102, 98, 98)">
+                            <option value="" default style="text-align:left;">Please Select</option>
+                            <option value="OT" style="text-align:center;">OT</option>
+                            <option value="ICU" style="text-align:center;">ICU</option>
+                            <option value="Casualty" style="text-align:center;">Casualty</option>
+                            <option value="Anesthesiology" style="text-align:center;">Anesthesiology</option>
+                            <option value="Urology" style="text-align:center;">Urology</option>
+                        </select>
+                    </div>
+                    <div
+                        style="font-family:monospace; display:flex; flex-direction:column; flex-wrap:nowrap; font-size:1rem; line-height:0.5rem;">
+                        <label for="time">
+                            Time*
+                        </label>
+                        <br>
+                        <select name="time" required
+                            style="outline-style:none;border-style:none; padding:0.5rem 1rem; width:100%; border-radius:0.25rem; outline:1px rgb(192, 189, 189) solid; color:rgb(102, 98, 98)">
+                            <option value="0400" default style="text-align:center;">4:00 AM available</option>
+                            <option value="0600" style="text-align:center;">6:00 AM available</option>
+                            <option value="0800" style="text-align:center;">8:00 AM available</option>
+                            <option value="1000" style="text-align:center;">10:00 AM available</option>
+                            <option value="1200" style="text-align:center;">12:00 AM available</option>
+                            <option value="1400" style="text-align:center;">2:00 PM available</option>
+                        </select>
+                    </div>
+                    <button
+                        style="cursor:pointer; margin-top:0.75rem; padding:1rem 0rem; color:#ffffff; font-family:monospace; background-color: rgb(0, 183, 255); border-radius:0.25rem; border-style:none; width:100%">Book
+                        Appointment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="container-2" style="display:flex; flex-direction:column; gap:4rem; margin:5rem 0.25rem; min-width:1024px;">
+        <div style="cursor:default; width:100%; display:flex; flex-direction:column; align-items:Center; gap:2rem;">
+            <div style="font-family:monospace; font-weight:bold; font-size:2.5rem;;">Leading Medicine</div>
+            <div style="font-family:monospace; font-weight:lighter; font-size:1rem; text-align:center; color:grey">
+                <div>
+                    Problems trying to resolve the conflict between
+                    <br>
+                    the two major realms of Classical physics: Newtonian Mechanics
+                </div>
+            </div>
+        </div>
+        <div style="display:flex; flex-direction:row; gap:3rem; justify-content:center;">
+            <div style="display:flex; flex-direction:column; border-radius:0.5rem; border:1px solid rgb(0, 183, 255)">
+                <div
+                    style="display:flex; flex-direction:row; gap:1rem; align-items:center;justify-content:center; background-color: #88b8b8; padding:1.5rem 2rem; border-top-left-radius:0.5rem; border-top-right-radius:0.5rem; cursor:default;">
+                    <div
+                        style="background-color:#ffffff; height:3rem; width:3rem; color:#76bebe; border-radius:50%; border:1px solid #808080; display:flex; align-items:center;justify-content:Center;">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div style="font-family:monospace; font-size:1rem; font-weight:bold; color:#ffffff;">Emergency Case
+                    </div>
+                </div>
+                <div
+                    style=" color:#999696; display:flex; flex-direction:column;gap:0.35rem; padding:1rem 1rem; cursor:default; border-bottom-left-radius:0.5rem; border-bottom-right-radius:0.5rem;">
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row;">
+                        <i class="fa-solid fa-minus"></i>
+                        The best products start
+                        <br>
+                        with Figma
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Design with real data
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Lightning fast prototyping
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Fastest way to organize
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:start;">
+                        <i class="fa-solid fa-minus"></i>
+                        Work at the speed of thought
+                    </div>
+                    <div style="color:rgb(97, 171, 201); margin-left:2rem; margin-top:0.25rem;"><span
+                            style="cursor:pointer;">Learn More</span></div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:column; border-radius:0.5rem; border:1px solid rgb(0, 183, 255)">
+                <div
+                    style="display:flex; flex-direction:row; gap:1rem; align-items:center; justify-content:center; background-color: #88b8b8; padding:1.5rem 2rem; border-top-left-radius:0.5rem; border-top-right-radius:0.5rem; cursor:default;">
+                    <div
+                        style="background-color:#ffffff; height:3rem; width:3rem; color:#76bebe; border-radius:50%; border:1px solid #808080; display:flex; align-items:center;justify-content:Center;">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div style="font-family:monospace; font-size:1rem; color:#ffffff; font-weight:bold;">Cancer Care
+                    </div>
+                </div>
+                <div
+                    style=" color:#999696; display:flex; flex-direction:column;gap:0.35rem; padding:1rem 1rem; cursor:default; border-bottom-left-radius:0.5rem; border-bottom-right-radius:0.5rem;">
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row;">
+                        <i class="fa-solid fa-minus"></i>
+                        The best products start
+                        <br>
+                        with Figma
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Design with real data
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Lightning fast prototyping
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Fastest way to organize
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:start;">
+                        <i class="fa-solid fa-minus"></i>
+                        Work at the speed of thought
+                    </div>
+                    <div style="color:rgb(97, 171, 201); margin-left:2rem; margin-top:0.25rem;"><span
+                            style="cursor:pointer;">Learn More</span></div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:column; border-radius:0.5rem; border:1px solid rgb(0, 183, 255)">
+                <div
+                    style="display:flex; flex-direction:row; gap:1rem; align-items:center; justify-content:center; background-color: #88b8b8; padding:1.5rem 2rem; border-top-left-radius:0.5rem; border-top-right-radius:0.5rem; cursor:default;">
+                    <div
+                        style="background-color:#ffffff; height:3rem; width:3rem; color:#76bebe; border-radius:50%; border:1px solid #808080; display:flex; align-items:center;justify-content:Center;">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div style="font-family:monospace; font-size:1rem; color:#ffffff; font-weight:bold;">Health Queries
+                    </div>
+                </div>
+                <div
+                    style=" color:#999696; display:flex; flex-direction:column;gap:0.35rem; padding:1rem 1rem; cursor:default; border-bottom-left-radius:0.5rem; border-bottom-right-radius:0.5rem;">
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row;">
+                        <i class="fa-solid fa-minus"></i>
+                        The best products start
+                        <br>
+                        with Figma
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Design with real data
+                    </div>
+                    <div style="padding-left:2rem; display:flex;gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Lightning fast prototyping
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:center;">
+                        <i class="fa-solid fa-minus"></i>
+                        Fastest way to organize
+                    </div>
+                    <div
+                        style="padding-left:2rem; display:flex;padding-left:2rem; gap:0.4rem; flex-direction:row; align-items:start;">
+                        <i class="fa-solid fa-minus"></i>
+                        Work at the speed of thought
+                    </div>
+                    <div style="color:rgb(97, 171, 201); margin-left:2rem; margin-top:0.25rem;"><span
+                            style="cursor:pointer;">Learn More</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-3"
+        style="display:flex; flex-direction:column; gap:8rem; margin:12rem 0rem; margin-bottom:8rem; min-width:1024px;">
+        <div style="cursor:default; width:100%; display:flex; flex-direction:column; align-items:Center; gap:2rem;">
+            <div style="font-family:monospace; font-weight:bold; font-size:2.5rem;;">Leading Medicine</div>
+            <div style="font-family:monospace; font-weight:lighter; font-size:1rem; text-align:center; color:grey">
+                <div>
+                    Problems trying to resolve the conflict between
+                    <br>
+                    the two major realms of Classical physics: Newtonian Mechanics
+                </div>
+            </div>
+        </div>
+        <div style="display:flex; flex-direction:center; gap:2rem; justify-content:center; min-width:1024px;">
+            <div
+                style="display:flex; flex-direction:column; gap:1.5rem; background-color: rgb(221, 213, 213); padding:1rem; justify-content:center; border:1px solid rgb(194, 190, 190); width:16rem; border-radius:0.5rem; cursor:pointer;">
+                <div style="font-size:1.3rem;">
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-regular fa-star" style="color:#ffff00;"></i>
+                </div>
+                <div style="color:#797676">
+                    Slate helps you see how many
+                    <br>
+                    more days you need to work to
+                    <br>
+                    reach your financial goal.
+                </div>
+                <div style="display:flex; align-items:center; justify-content:start;">
+                    <img src="./assets/user.1.png" alt=""
+                        style="outline:2px solid rgb(194, 190, 190); border-radius:1.5rem; height:50px;">
+                </div>
+            </div>
+            <div
+                style="display:flex; flex-direction:column; gap:1.5rem; background-color: rgb(221, 213, 213); padding:1rem; justify-content:center; border:1px solid rgb(194, 190, 190); width:16rem; border-radius:0.5rem; cursor:pointer;">
+                <div style="font-size:1.3rem;">
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-regular fa-star" style="color:#ffff00;"></i>
+                </div>
+                <div style="color:#797676">
+                    Slate helps you see how many
+                    <br>
+                    more days you need to work to
+                    <br>
+                    reach your financial goal.
+                </div>
+                <div style="display:flex; align-items:center; justify-content:start;">
+                    <img src="./assets/user.2.png" alt=""
+                        style="outline:2px solid rgb(194, 190, 190); border-radius:1.5rem; height:50px;">
+                </div>
+            </div>
+            <div
+                style="display:flex; flex-direction:column; gap:1.5rem; background-color: rgb(221, 213, 213); padding:1rem; justify-content:center; border:1px solid rgb(194, 190, 190); width:16rem; border-radius:0.5rem; cursor:pointer;">
+                <div style="font-size:1.3rem;">
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffff00;"></i>
+                    <i class="fa-regular fa-star" style="color:#ffff00;"></i>
+                </div>
+                <div style="color:#797676">
+                    Slate helps you see how many
+                    <br>
+                    more days you need to work to
+                    <br>
+                    reach your financial goal.
+                </div>
+                <div style="display:flex; align-items:center; justify-content:start;">
+                    <img src="./assets/user.3.png" alt=""
+                        style="outline:2px solid rgb(194, 190, 190); border-radius:1.5rem; height:50px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-4"
+        style="display:flex; flex-direction:column; gap:8rem; margin:18rem 0rem; margin-bottom:8rem; min-width:1024px;">
+        <div style="cursor:default; width:100%; display:flex; flex-direction:column; align-items:Center; gap:2rem;">
+            <div style="font-family:monospace; font-weight:bold; font-size:2.5rem;;">FAQ</div>
+            <div style="font-family:monospace; font-weight:lighter; font-size:1rem; text-align:center; color:grey">
+                <div>
+                    Problems trying to resolve the conflict between
+                    <br>
+                    the two major realms of Classical physics: Newtonian Mechanics
+                </div>
+            </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:4rem; align-items:center; cursor:default;">
+            <div style="display:flex; flex-direction:row; gap:3rem;">
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:row; gap:3rem;">
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:row; gap:3rem;">
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width:fit-content; display:flex; flex-direction:row; gap:0.5rem; font-family:monospace; font-size:0.9rem;">
+                    <div>
+                        <i class="fa-solid fa-chevron-right" style="color:rgb(0, 162, 255)"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <div style="font-weight:bold;">the quick fox jumps over the
+                            <br>
+                            lazy dog
+                        </div>
+                        <div>
+                            Things ona very smart scale
+                            <br>
+                            behave like nothing
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-5"
+        style="display:flex; flex-direction:column; gap:8rem; margin:8rem 0rem; margin-bottom:8rem; min-width:1024px;">
+        <div style="cursor:default; width:100%; display:flex; flex-direction:column; align-items:Center; gap:2rem;">
+            <div style="font-family:monospace; font-weight:bold; font-size:2.5rem;;">PRICING</div>
+            <div style="font-family:monospace; font-weight:lighter; font-size:1rem; text-align:center; color:grey">
+                <div>
+                    Problems trying to resolve the conflict between
+                    <br>
+                    the two major realms of Classical physics: Newtonian Mechanics
+                </div>
+            </div>
+        </div>
+        <div
+            style="display:flex; flex-direction:row; justify-content:center; font-family:monospace; gap:0.25rem; align-items:end">
+            <div
+                style="cursor:default; height:fit-content; display:flex; flex-direction:column; gap:2.5rem; align-items:Center; border:2px solid rgb(89, 181, 197); padding:1.5rem 1rem; border-radius:0.5rem;">
+                <div style="font-size:1.8rem; font-weight:bold;">FREE</div>
+                <div style="text-align:center; color:rgb(87, 84, 84); font-weight:bold;">
+                    <div>
+                        Organize across all
+                        <br>
+                        apps by hand
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:row; gap:0.25rem; color:rgb(0, 183, 255)">
+                    <div style="align-self:center; font-size:2.5rem; font-family:arial;">0</div>
+                    <div
+                        style="display:flex; flex-direction:column; font-weight:bold; gap:0.4rem; font-size:0.8rem; justify-content:center;">
+                        <div>$</div>
+                        <div>Per Month</div>
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:0.5rem; font-weight:bold;">
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:#808080; font-size:1.5rem"></i>
+                        1GB Cloud storage
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:#808080; font-size:1.5rem"></i>
+                        <div style="display:flex; flex-direction: column;">
+                            Email and community
+                            <br>
+                            support
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="cursor:pointer; padding:0.75rem 3rem; color:#ffffff; background-color: rgb(0, 132, 255); border-radius:05rem;">
+                    Try for free</div>
+            </div>
+            <div
+                style="cursor:default; display:flex; background-color: rgb(37, 43, 66); flex-direction:column; gap:2.8rem; align-items:Center; border:2px solid rgb(37, 43, 66); padding:1.5rem 1rem;padding-top:2.5rem; border-radius:0.5rem;">
+                <div style="font-size:1.8rem; font-weight:bold; color:#ffffff">STANDARD</div>
+                <div style="text-align:center; color:rgb(255, 255, 255); font-weight:bold;">
+                    <div>
+                        Organize across all
+                        <br>
+                        apps by hand
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:row; gap:0.25rem; color:rgb(0, 183, 255)">
+                    <div style="align-self:center; font-size:2.5rem; font-family:arial;">9.99</div>
+                    <div
+                        style="display:flex; flex-direction:column; font-weight:bold; gap:0.4rem; font-size:0.8rem; justify-content:center;">
+                        <div>$</div>
+                        <div>Per Month</div>
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:0.5rem; font-weight:bold; color:#ffffff">
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        1GB Cloud storage
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        <div style="display:flex; flex-direction: column;">
+                            Email and community
+                            <br>
+                            support
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="cursor:pointer; padding:0.75rem 3rem; color:#ffffff; background-color: rgb(0, 132, 255); border-radius:05rem;">
+                    Try for free</div>
+            </div>
+            <div
+                style="cursor:default; height:fit-content; display:flex; flex-direction:column; gap:2.5rem; align-items:Center; border:2px solid rgb(89, 181, 197); padding:1.5rem 1rem; border-radius:0.5rem;">
+                <div style="font-size:1.8rem; font-weight:bold;">PREMIUM</div>
+                <div style="text-align:center; color:rgb(87, 84, 84); font-weight:bold;">
+                    <div>
+                        Organize across all
+                        <br>
+                        apps by hand
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:row; gap:0.25rem; color:rgb(0, 183, 255)">
+                    <div style="align-self:center; font-size:2.5rem; font-family:arial;">19.99</div>
+                    <div
+                        style="display:flex; flex-direction:column; font-weight:bold; gap:0.4rem; font-size:0.8rem; justify-content:center;">
+                        <div>$</div>
+                        <div>Per Month</div>
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:0.5rem; font-weight:bold;">
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        Unlimited product updates
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        1GB Cloud storage
+                    </div>
+                    <div style="display:flex; flex-wrap:nowrap; align-items:center; gap:0.4rem;">
+                        <i class="fa-solid fa-circle-check" style="color:rgb(96, 226, 96); font-size:1.5rem"></i>
+                        <div style="display:flex; flex-direction: column;">
+                            Email and community
+                            <br>
+                            support
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="cursor:pointer; padding:0.75rem 3rem; color:#ffffff; background-color: rgb(0, 132, 255); border-radius:05rem;">
+                    Try for free</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="container-1"
+            style="display:flex; flex-direction:row; justify-content:space-evenly; align-items:center; min-width:1024px; background-color: rgb(37, 43, 66); padding:4rem 0rem; gap:1rem;">
+            <div style="cursor:default; display:flex; flex-direction:column; align-items:start; gap:0.5rem;">
+                <div style="font-size:3rem; font-family:monospace; color:#ffffff; font-weight:bold;">Get In Touch</div>
+                <div style="font-family:monospace; color:#ffffff; font-size:1rem;">
+                    The graual accumulation information about atomic and
+                    <br>
+                    small-scale behaviour during the first quarter of the 20th
+                </div>
+            </div>
+            <form style="display:flex; flex-direction:row; align-items:center; flex-wrap:nowrap;">
+                <input type="email" placeholder="Your Email"
+                    style="outline-style:none; padding:0.75rem 1rem; width:100%; border-style: none; border-top-left-radius: 0.35rem; border-bottom-left-radius: 0.35rem;">
+                <button
+                    style="cursor:pointer; padding:0.64rem 0.75rem; color:#ffffff; font-family:monospace; background-color: rgb(0, 183, 255); border-style:none; font-size:1rem; height:fit-content; border-top-right-radius: 0.35rem; border-bottom-right-radius:0.35rem;">Subscribe</button>
+            </form>
+        </div>
+        <div id="container-2"
+            style="display:flex; flex-direction:row; justify-content:space-evenly; align-items:center; margin:4rem 0rem; min-width:1024px;">
+            <div
+                style="display:flex; height:10rem; flex-direction:column; gap:1.8rem; font-family:monospace; cursor:default;">
+                <div style="font-weight:bolder; font-size:1.8rem; color:#4b4a4a;">Get In Touch</div>
+                <div style="color:rgb(124, 122, 122); font-size:1rem;">
+                    the quick fox jumps over the
+                    <br>
+                    lazy dog
+                </div>
+                <div style="display:flex; flex-direction:row; gap:1rem; font-size:1.5rem;">
+                    <i class="fa-brands fa-facebook" style="color:rgb(0, 162, 255); cursor:pointer;"></i>
+                    <i class="fa-brands fa-instagram" style="color:rgb(0, 162, 255); cursor:pointer;"></i>
+                    <i class="fa-brands fa-twitter" style="color:rgb(0, 162, 255); cursor:pointer;"></i>
+                </div>
+            </div>
+            <div
+                style="display:flex;height:10rem; flex-direction:column; gap:1.5rem; font-family:monospace; cursor:default;">
+                <div style="font-weight:bolder; font-size:1.8rem; color:#4b4a4a;">Company info</div>
+                <div style="color:rgb(124, 122, 122); display:flex; flex-direction:column; gap:0.5rem; font-size:1rem;">
+                    <div style="cursor:pointer; width:fit-content;">About Us</div>
+                    <div style="cursor:pointer; width:fit-content;">Carrier</div>
+                    <div style="cursor:pointer; width:fit-content;">We are hiring</div>
+                    <div style="cursor:pointer; width:fit-content;">Blog</div>
+                </div>
+            </div>
+            <div
+                style="display:flex;height:10rem; flex-direction:column; gap:1.5rem; font-family:monospace; cursor:default;">
+                <div style="font-weight:bolder; font-size:1.8rem; color:#4b4a4a;">Features</div>
+                <div style="color:rgb(124, 122, 122); display:flex; flex-direction:column; gap:0.5rem; font-size:1rem;">
+                    <div style="cursor:pointer; width:fit-content;">Business Marketing</div>
+                    <div style="cursor:pointer; width:fit-content;">User Analytic</div>
+                    <div style="cursor:pointer; width:fit-content;">Live Chat</div>
+                    <div style="cursor:pointer; width:fit-content;">Unlimited Support</div>
+                </div>
+            </div>
+            <div
+                style="display:flex;height:10rem; flex-direction:column; gap:1.5rem; font-family:monospace; cursor:default;">
+                <div style="font-weight:bolder; font-size:1.8rem; color:#4b4a4a;">Resources</div>
+                <div style="color:rgb(124, 122, 122); display:flex; flex-direction:column; gap:0.5rem; font-size:1rem;">
+                    <div style="cursor:pointer; width:fit-content;">IOS & Android</div>
+                    <div style="cursor:pointer; width:fit-content;">Watch a Demo</div>
+                    <div style="cursor:pointer; width:fit-content;">Customers</div>
+                    <div style="cursor:pointer; width:fit-content;">API</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

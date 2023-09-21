@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>NFT Landing Page</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body
+  style="background-image: radial-gradient(circle at left top , rgb(210, 100, 250), rgb(81, 36, 188) , #0e0a1b , rgb(28, 13, 63), rgb(27, 18, 51)); background-repeat: no-repeat;">
+  <!-- navbar -->
+  <nav
+    class="z-0 sticky w-full top-0 flex flex-row justify-around items-center py-[1rem] px-[1rem] border-solid border-b-[1px] border-[#ffffff] backdrop-blur-lg">
+    <img src="./assets/logo.png" alt="" class="block">
+    <div class="flex flex-row justify-center items-center gap-[1rem] text-white">
+      <div class="px-3 py-2 cursor-pointer">MARKETPLACE</div>
+      <div class="px-3 py-2 cursor-pointer">ABOUT</div>
+      <div class="px-3 py-2 cursor-pointer">RESOURCES</div>
+      <div class="px-3 py-2 cursor-pointer">FAQ</div>
+    </div>
+    <div class="flex flex-row justify-center items-center gap-[1rem] text-white">
+      <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+        class="py-1 px-1 rounded-lg cursor-pointer w-[6rem] font-mono text-center">
+        <div class="py-2 rounded-lg" style="background-color: rgb(26, 12, 58);">Log in</div>
+      </div>
+      <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+        class="py-1 px-1 rounded-lg cursor-pointer w-[6rem] font-mono text-center">
+        <div class="py-2 rounded-lg" style="background-color: rgb(27, 15, 58);">Sign up</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro -->
+  <div class=" flex justify-around items-center flex-wrap">
+    <div class="flex flex-col justify-center items-start gap-[3rem]">
+      <!-- heading -->
+      <div class="font-thin text-[#d6aeff] text-[4rem] font-[Poppins] leading-tight">
+        Keep Calm &
+        <br>
+        Collect Your NFTs.
+      </div>
+      <!-- description -->
+      <div class="text-[#bdbaba] font-mono ">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. corporis
+        <br>
+        dicta, eius eligendi dolore aliquid facilis, repellat, in esse
+        <br>
+        architecto. Laboriosam molestiae similique commodi praesentium.
+      </div>
+      <!-- get started -->
+      <div class="flex flex-row justify-center gap-[2rem]">
+        <!-- play logo -->
+        <i class="fa-solid fa-play block text-gradient-effect text-[4rem]"
+          style="filter:drop-shadow(-8px 20px 10px rgb(0, 0, 0)); background: linear-gradient( rgb(86, 53, 218), rgb(171, 79, 252)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+        <!-- text -->
+        <div class="leading-4">
+          <div class="text-[#ffffff] font-mono font-extrabold text-[1.4rem] ">Let's get started!</div>
+          <br>
+          <div class="text-[#ffffff] font-mono text-[1rem] leading-tight">
+            Watch this quick demo video to see
+            <br>
+            how to get started
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/image.png" alt="" class="w-[27rem]">
+  </div>
+
+  <div class="flex flex-col justify-start items-center gap-[3rem]">
+    <div class="flex flex-row justify-center">
+      <div class="h-[6rem] w-[6rem] rounded-[50%]"
+        style="background-image: linear-gradient(to bottom, rgb(107, 73, 248), rgb(185, 93, 255));"></div>
+      <div class="text-[2rem] self-center -ml-[3rem] font-mono text-[#ffffff]">Top Creators</div>
+    </div>
+    <div class="z-[-1] relative">
+      <img src="./assets/map.png" alt="" class="block rounded-3xl h-[30rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[0rem] right-[2rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[7.4rem] left-[16.5rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[16.7rem]  left-[19.7rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[7.3rem] left-[34.9rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[2.9rem] right-[22.2rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[16.8rem] right-[18.8rem]">
+      <img src="./assets/person.png" alt="" class="absolute top-[1.3rem] left-[6.8rem]">
+    </div>
+    <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+      class="py-1  rounded-lg cursor-pointer w-fit px-1 font-mono text-center">
+      <div class="py-2 px-2 rounded-lg text-[#ffffff]" style="background-color: rgb(26, 12, 58);">View All
+        Collectors
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-row justify-center items-center gap-[5rem] my-[10rem] ml-[10rem] pr-[2rem]">
+    <div class="flex flex-row justify-center gap-[3rem] h-[30rem] z-[-1]"
+      style="background-image: radial-gradient(circle at left center , rgb(81, 36, 188) 5%, rgb(28, 16, 58), rgb(24, 12, 52), rgb(18, 11, 37)); background-repeat: no-repeat;">
+      <div class="flex flex-col self-start z-[0] gap-[6rem]">
+        <div class="z-[-1] relative">
+          <img src="./assets/Image 1.png" alt="" class="absolute top-[-4rem] left-[4rem] px-[1rem] py-[0.5rem]"
+            style="background-image: linear-gradient(to right, #40b0ff, #a631fa)">
+          <div
+            class="h-[11rem] w-[12rem] border-solid border-[#ffffff] border-[2px] flex flex-row items-end justify-start">
+            <div class="text-left text-[#ffffff] font-mono text-[1.2rem]  ml-[1rem]">
+              Ancient Ones
+              <br>
+              <i class="fa-brands fa-ethereum"></i>
+              5.0 ETH
+
+            </div>
+          </div>
+        </div>
+        <div class="z-[-1] relative ml-[3rem]">
+          <img src="./assets/Avatar 1.png" alt="" class="absolute top-[-4rem] left-[4rem]"
+            style="background-color: rgb(51, 47, 71);">
+          <div
+            class="h-[11rem] w-[12rem] border-solid border-[#ffffff] border-[2px] flex flex-row items-end justify-start">
+            <div class="text-left text-[#ffffff] font-mono text-[1.2rem]  ml-[1rem]">
+              God of War
+              <br>
+              <i class="fa-brands fa-ethereum"></i>
+              7.0 ETH
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col self-end z-[0] gap-[5rem]">
+        <div class="z-[-1] relative">
+          <img src="./assets/merlin.png" alt="" class=" absolute top-[-5rem] left-[4rem]"
+            style="background-image: linear-gradient(to right, #40b0ff, #a631fa)">
+          <div
+            class="h-[11rem] w-[12rem] border-solid border-[#ffffff] border-[2px] flex flex-row items-end justify-start">
+            <div class="text-left text-[#ffffff] font-mono text-[1.2rem]  ml-[1rem]">
+              Lost In Space
+              <br>
+              <i class="fa-brands fa-ethereum"></i>
+              3.0 ETH
+
+            </div>
+          </div>
+        </div>
+        <div class="z-[-1] relative ml-[3rem]">
+          <img src="./assets/Avatar2.png" alt="" class="absolute top-[-3rem] left-[4rem] h-[10rem]"
+            style="background-color: rgb(51, 47, 71);">
+          <div
+            class="h-[11rem] w-[12rem] border-solid border-[#ffffff] border-[2px] flex flex-row items-end justify-start">
+            <div class="text-left text-[#ffffff] font-mono text-[1.2rem] ml-[1rem]">
+              The Watchers
+              <br>
+              <i class="fa-brands fa-ethereum"></i>
+              3.2 ETH
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col gap-[2.5rem] items-start justify-start self-start">
+      <div class="flex flex-row justify-center ">
+        <div class="h-[6rem] w-[6rem] rounded-[50%]"
+          style="background-image: linear-gradient(to bottom, rgb(107, 73, 248), rgb(185, 93, 255));"></div>
+        <div class="text-[2rem] self-center -ml-[3rem] font-mono text-[#ffffff]">Latest NFT Collection</div>
+      </div>
+      <div class="font-mono text-[#5a6d72] text-[1.2rem]">
+        Lorem, ipsum dolor sit amet adipisicing elit.
+        <br>
+        Repellat obcaecati debitis architecto sapiente
+        <br>
+        ipsa minusm quo blanditiis laudantium.
+      </div>
+      <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+        class="py-1  rounded-lg cursor-pointer w-fit px-1 font-mono text-center">
+        <div class="py-2 px-2 rounded-lg text-[#ffffff]" style="background-color: rgb(26, 12, 58);">View All
+          Collectors</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center my-[10rem] ml-[-10rem]">
+    <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+      class="py-1  rounded-lg cursor-default w-fit pr-1 font-mono rounded-r-[20rem] border-l-[0px] z-[-3]">
+      <div class="py-2 px-2 pl-8  rounded-r-[20rem] text-[#ffffff] z-[-4]" style="background-color: rgb(13, 8, 25);">
+        <div class="flex flex-row justify-center gap-[3rem] items-center my-[2rem] z-[-5]">
+          <div class="flex flex-col gap-[2.5rem] items-start justify-start self-start z-[1] ">
+            <div class="flex flex-row justify-center ">
+              <div class="h-[6rem] w-[6rem] rounded-[50%]"
+                style="background-image: linear-gradient(to bottom, rgb(107, 73, 248), rgb(185, 93, 255));"></div>
+              <div class="text-[2rem] self-center -ml-[3rem] font-mono text-[#ffffff]">Latest NFT Collection</div>
+            </div>
+            <div class="font-mono text-[#5a6d72] text-[1.2rem]">
+              Lorem, ipsum dolor sit amet adipisicing elit.
+              <br>
+              Repellat obcaecati debitis architecto sapiente
+              <br>
+              ipsa minusm quo blanditiis laudantium.
+            </div>
+            <div class="font-mono text-[#5a6d72] text-[1.2rem]">
+              Lorem, ipsum dolor sit amet adipisicing elit.
+              <br>
+              Repellat obcaecati debitis architecto sapiente
+              <br>
+              ipsa minusm quo blanditiis laudantium.
+            </div>
+
+          </div>
+          <div class="flex flex-row justify-start self-center gap-[0rem] z-[1]">
+            <div class="flex flex-col self-center z-[0] gap-[2rem]">
+              <div
+                class="h-[10rem] w-[14rem] gap-[1rem] backdrop-blur-2xl flex flex-col justify-center items-center border-solid border-[#ffffff] border-[1px] rounded-lg">
+                <i class="fa-solid fa-layer-group fa-rotate-90 block text-gradient-effect text-[5rem]"
+                  style="background: linear-gradient( rgb(247, 188, 81), rgb(98, 147, 120)); filter:drop-shadow(-30px 30px 10px rgb(142, 102, 27)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                <div class="font-mono text-[1.4rem] text-[#ffffff]">Marketplace</div>
+              </div>
+              <div
+                class="ml-[3rem] h-[10rem] w-[14rem] gap-[1rem] backdrop-blur-2xl flex flex-col justify-center items-center border-solid border-[#ffffff] border-[1px] rounded-lg">
+                <i class="fa-solid fa-folder-closed block text-gradient-effect text-[5rem]"
+                  style="background: linear-gradient(to right, rgb(5, 210, 255), rgb(23, 96, 189)); filter:drop-shadow(-30px -30px 20px rgb(32, 86, 116)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                <div class="font-mono text-[1.4rem] text-[#ffffff]">Data Protection</div>
+              </div>
+            </div>
+            <div class="flex flex-col self-center z-[0] gap-[2rem]">
+              <div
+                class="h-[10rem] w-[14rem] gap-[1rem] backdrop-blur-2xl flex flex-col justify-center items-center border-solid border-[#ffffff] border-[1px] rounded-lg">
+                <i class="fa-solid fa-shield block text-gradient-effect text-[5rem]"
+                  style="background: linear-gradient(to right,  rgb(255, 92, 20), rgb(205, 145, 63)); filter:drop-shadow(0px 70px 20px rgb(170, 79, 51)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                <div class="font-mono text-[1.4rem] text-[#ffffff]">Money Protection</div>
+              </div>
+              <div
+                class="ml-[3rem] h-[10rem] w-[14rem] gap-[1rem] backdrop-blur-2xl flex flex-col justify-center items-center border-solid border-[#ffffff] border-[1px] rounded-lg">
+                <i class="fa-solid fa-lock block text-gradient-effect text-[5rem]"
+                  style="background: linear-gradient(to right, rgb(5, 210, 255), rgb(23, 96, 189)); filter:drop-shadow(0px 60px 20px rgb(32, 86, 116)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                <div class="font-mono text-[1.4rem] text-[#ffffff]">Fast & Secure</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col justify-start items-center gap-[3rem] my-[6rem]">
+    <div class="flex flex-row justify-center">
+      <div class="h-[6rem] w-[6rem] rounded-[50%]"
+        style="background-image: linear-gradient(to bottom, rgb(107, 73, 248), rgb(185, 93, 255));"></div>
+      <div class="text-[2rem] self-center -ml-[3rem] font-mono text-[#ffffff]">Create And Sell Your NFTs</div>
+    </div>
+    <div class="flex flex-row justify-center items-center gap-[2rem]">
+      <div class="flex flex-col gap-[1.2rem] w-[17rem] h-[26rem] justify-start">
+        <img src="./assets/wallet-one.png" alt="" class="self-center h-[5rem]">
+        <div class="self-center text-[1.6rem] text-[#ffffff]">Set Up Your Wallet</div>
+        <div class="self-start text-[1rem] text-violet-400 px-[0.5rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cum tempora odit illum doloremque et
+          harum
+          labore necessitatibus? Vitae iusto molestias facere perspiciatis ad ullam nisi aspernatur necessitatibus
+          nihil praesentium?
+        </div>
+      </div>
+      <div class="flex flex-col gap-[1.2rem] w-[17rem] h-[26rem] justify-start">
+        <img src="./assets/triangle-round-rectangle.svg" alt="" class="self-center h-[5rem]">
+        <div class="self-center text-[1.6rem] text-[#ffffff]">Create Your Collections</div>
+        <div class="self-start text-[1rem] text-violet-400 px-[0.5rem]">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos beatae ab id vero quasi sequi
+          labore,
+          corrupti temporibus consectetur nam, rerum dolore nemo molestias saepe. Amet, incidunt iusto!
+        </div>
+      </div>
+      <div class="flex flex-col gap-[1.2rem] w-[17rem] h-[26rem] justify-start">
+        <img src="./assets/picture.png" alt="" class="self-center h-[5rem]">
+        <div class="self-center text-[1.6rem] text-[#ffffff]">Add Your NFTs</div>
+        <div class="self-start text-[1rem] text-violet-400 px-[0.5rem]">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, corporis inventore. Maiores dolor
+          praesentium, ipsum reiciendis cumque officiis suscipit adipisci qui dolores totam inventore, est quos,
+          provident aperiam.
+        </div>
+      </div>
+      <div class="flex flex-col gap-[1.2rem] w-[17rem] h-[26rem] justify-start">
+        <img src="./assets/shopping-bag.svg" alt="" class="self-center h-[5rem]">
+        <div class="self-center text-[1.6rem] text-[#ffffff]">List Them For Sale</div>
+        <div class="self-start text-[1rem] text-violet-400 px-[0.5rem]">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor iure voluptates voluptatum totam atque
+          exercitationem eaque esse illo molestias dolorum. Expedita quidem ipsam eveniet quaerat enim quam totam?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center gap-[1.5rem] mb-[5rem]">
+    <div class="text-[1.5rem] text-[#ffffff] font-mono ">Ready For Next NFT Drop?</div>
+    <div class="py-[1rem] bg-[#0e0a1b] px-[5rem] font-mono text-[1.2rem] text-[#ffffff]">youremail@xyz.com</div>
+    <div style="background-image: linear-gradient(to right, #40b0ff, #a631fa)"
+      class="py-1  rounded-lg cursor-pointer w-fit px-1 font-mono text-center">
+      <div class="py-2 px-8 rounded-lg text-[#ffffff]" style="background-color: rgb(26, 12, 58);">Send Email</div>
+    </div>
+  </div>
+
+  <footer style="background-color: rgb(13, 8, 2);">
+    <div class="flex flex-col items-center gap-[3rem] my-[3rem] pt-[3rem]">
+      <div class="flex flex-row justify-center gap-[5rem]">
+        <div class="flex flex-col items-start gap-[3rem] h-[20rem]">
+          <div class="flex flex-col justify-start gap-[2rem]">
+            <img src="./assets/logo.png" alt="" class="block w-[5rem]">
+            <div class="text-[#ffffff] text-[1.2rem] font-mono">
+              Amazing NFTs marketplace, Authentic and unique
+              <br>
+              digital creations
+            </div>
+          </div>
+          <div class="flex flex-row justify-start gap-[3rem]">
+            <img src="./assets/whatsapp.png" alt="" class="h-[1.5rem] outline-[2px] outline-offset-[1rem]"
+              style="outline-style:solid; outline-color:rgb(113, 109, 197); border-radius:50%">
+            <img src="./assets/fb.png" alt="" class="h-[1.5rem] outline-[2px] outline-offset-[1rem]"
+              style="outline-style:solid; outline-color:rgb(113, 109, 197); border-radius:50%">
+            <img src="./assets/insta.png" alt="" class="h-[1.5rem] outline-[2px] outline-offset-[1rem]"
+              style="outline-style:solid; outline-color:rgb(113, 109, 197); border-radius:50%">
+            <img src="./assets/yt.png" alt="" class="h-[1.5rem] outline-[2px] outline-offset-[1rem]"
+              style="outline-style:solid; outline-color:rgb(113, 109, 197); border-radius:50%">
+          </div>
+        </div>
+        <div class="flex flex-col justify-start gap-[3rem] items-start h-[20rem]">
+          <div class="text-[1.8rem] text-[#ffffff]">Marketplace</div>
+          <div class="flex flex-col gap-[1rem] font-mono text-[#ffffff] text-[1.2rem]">
+            <div>Explore</div>
+            <div>NFTs</div>
+            <div>Collectibles</div>
+            <div>Virtual Reality</div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start gap-[3rem] items-start h-[20rem]">
+          <div class="text-[1.8rem] text-[#ffffff]">Resources</div>
+          <div class="flex flex-col gap-[1rem] font-mono text-[#ffffff] text-[1.2rem]">
+            <div>Help Center</div>
+            <div>Partners</div>
+            <div>Blog</div>
+            <div>Newsletter</div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start gap-[3rem] items-start h-[20rem]">
+          <div class="text-[1.8rem] text-[#ffffff]">Company</div>
+          <div class="flex flex-col gap-[1rem] font-mono text-[#ffffff] text-[1.2rem]">
+            <div>About Us</div>
+            <div>Careers</div>
+            <div>Support</div>
+            <div>Newsletter</div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row justify-center gap-[20rem] font-mono text-[#a09797] text-[1.1rem]">
+        <div>Copyright 2022 sapphire, All rights reserved.</div>
+        <div class="flex flex-row  gap-[2rem]">
+          <div>Privacy Policy</div>
+          <div>Terms & Condition</div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
